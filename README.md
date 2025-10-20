@@ -7,38 +7,38 @@ The system combines the power of **Pinecone (vector database)** and **Neo4j (gra
 
 ---
 
-## 🖼️ Project Demo & Links
+##  Project Demo & Links
 
-- 🎥 **Loom Video (2-min walkthrough):** [👉 Click Here](https://www.loom.com/share/your-loom-link-here)  
+- 🎥 **Loom Video (2-min walkthrough):** [ Click Here](https://www.loom.com/share/36382c2daccf4351b0c63502f7498b9d?sid=5c877fee-b7ca-4a14-bc5f-b12bde9cd020)  
 - 💻 **GitHub Repository:** [GoViet](https://github.com/Abhay-Chand/GoViet)  
 - 🌐 **Localhost URL:** `http://127.0.0.1:5000` (Flask app)  
 - 📂 Dataset: `vietnam_travel_dataset.json`
 
 ---
 
-## ✨ Key Highlights
+##  Key Highlights
 
-- 🧭 **Hybrid Retrieval (Vector + Graph)**  
+- **Hybrid Retrieval (Vector + Graph)**  
   Pinecone handles **semantic similarity**, Neo4j handles **relationship reasoning** — resulting in richer, more accurate itineraries.
 
-- 🧠 **Dynamic Graph Knowledge Base**  
+-  **Dynamic Graph Knowledge Base**  
   Neo4j stores places, attractions, and semantic relationships. The graph evolves as data grows.
 
-- 📊 **Semantic Search via Pinecone**  
+-  **Semantic Search via Pinecone**  
   Fast retrieval of relevant attractions or itineraries based on natural language queries.
 
-- 🛠 **Modular Architecture**  
+-  **Modular Architecture**  
   Clean separation of embedding, uploading, querying, and front-end layers.
 
-- 🌍 **Real Travel Dataset**  
+-  **Real Travel Dataset**  
   Vietnam itinerary dataset with location metadata, attractions, and itineraries used to generate realistic outputs.
 
-- 🚀 **Scalable to Millions of Nodes**  
+-  **Scalable to Millions of Nodes**  
   Carefully designed schema and hybrid indexing approach to handle large-scale deployments.
 
 ---
 
-## 🧠 Why Hybrid Retrieval?
+##  Why Hybrid Retrieval?
 
 Most systems rely on either **vector search** (good for semantics) or **graph search** (good for structure).  
 GoViet uses both because:
@@ -49,11 +49,11 @@ GoViet uses both because:
 - **Neo4j (Graph)**: Finds how entities are **related**.  
   _Example_: Connecting “Hanoi” → “Old Quarter” → “Hotels” → “Spa Packages”.
 
-👉 This hybrid approach makes answers **contextually accurate**, **explainable**, and **scalable**.
+ This hybrid approach makes answers **contextually accurate**, **explainable**, and **scalable**.
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 | Layer             | Technology Used                 |
 |-------------------|----------------------------------|
@@ -67,7 +67,7 @@ GoViet uses both because:
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
                 ┌────────────────────┐
                 │   User Interface   │
@@ -92,7 +92,7 @@ GoViet uses both because:
 
 ---
 
-## 🧪 Example Query
+##  Example Query
 
 > **User:** “Give me a 3-day romantic itinerary in Hanoi for couples.”
 
@@ -101,9 +101,9 @@ GoViet uses both because:
 2. **Neo4j** to fetch connected hotels, routes, and attractions.  
 3. **OpenAI** to synthesize a beautiful human-readable itinerary.
 
-📝 **Example Output**:
+ **Example Output**:
 
-📸 **Screenshot of Example Output**:  
+ **Screenshot of Example Output**:  
 ![Example Query Screenshot](assets/Screenshot%202025-10-20%20101827.png)
 
 ---
@@ -111,13 +111,13 @@ GoViet uses both because:
 
 ---
 
-✅ This gives a **clear visual** of what the user will see, and reviewers love when text is paired with screenshots.
+ This gives a **clear visual** of what the user will see, and reviewers love when text is paired with screenshots.
 
 
 
 ---
 
-## 🛠 Project Structure
+##  Project Structure
 
 GoViet/
 │
@@ -138,9 +138,9 @@ GoViet/
 
 ---
 
-## 🚀 Setup Instructions
+##  Setup Instructions
 
-### 1️⃣ Clone & Install Dependencies
+###  Clone & Install Dependencies
 ```bash
 git clone https://github.com/Abhay-Chand/GoViet.git
 cd GoViet
