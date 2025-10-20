@@ -1,17 +1,17 @@
-# 🌏 GoViet — Hybrid Travel Intelligence System 🧠✈️
+# 🌏 GoViet — Hybrid Travel Intelligence System ✈️
 
 **GoViet** is an intelligent **hybrid travel planning system** that blends **semantic vector search** with **graph-based reasoning** to generate **hyper-contextual and dynamic travel itineraries**.  
 The system combines the power of **Pinecone (vector database)** and **Neo4j (graph database)** with OpenAI to deliver meaningful, structured, and personalized travel recommendations — just like a human travel expert would.
 
-> 🚀 Built for Scale | 🧠 Designed for Intelligence | 🌐 Inspired by Real Travel Experiences
+> 🚀 Built for Scale |  Designed for Intelligence | 🌐 Inspired by Real Travel Experiences
 
 ---
 
 ##  Project Demo & Links
 
-- 🎥 **Loom Video (2-min walkthrough):** [ Click Here](https://www.loom.com/share/36382c2daccf4351b0c63502f7498b9d?sid=5c877fee-b7ca-4a14-bc5f-b12bde9cd020)  
-- 💻 **GitHub Repository:** [GoViet](https://github.com/Abhay-Chand/GoViet)  
-- 🌐 **Localhost URL:** `http://127.0.0.1:5000` (Flask app)  
+- **Loom Video (2-min walkthrough):** [ Click Here](https://www.loom.com/share/36382c2daccf4351b0c63502f7498b9d?sid=5c877fee-b7ca-4a14-bc5f-b12bde9cd020)  
+- **GitHub Repository:** [GoViet](https://github.com/Abhay-Chand/GoViet)  
+- **Localhost URL:** `http://127.0.0.1:5000` (Flask app)  
 - 📂 Dataset: `vietnam_travel_dataset.json`
 
 ---
