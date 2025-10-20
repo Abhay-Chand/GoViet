@@ -104,6 +104,14 @@ GoViet uses both because:
 📝 **Example Output**:
 
 
+📸 **Screenshot of Example Output**:  
+![Example Output](assets/example-query.png)
+
+> Add your screenshot as `assets/example-query.png`. You can take it from your browser after generating a response and place it inside the `assets/` folder at the root of your project.
+
+---
+
+✅ This gives a **clear visual** of what the user will see, and reviewers love when text is paired with screenshots.
 
 
 
