@@ -105,9 +105,9 @@ GoViet uses both because:
 
 
 📸 **Screenshot of Example Output**:  
-![Example Output](assets/example-query.png)
+![Example Output](assets/Screenshot 2025-10-20 101827.png)
 
-> Add your screenshot as `assets/example-query.png`. You can take it from your browser after generating a response and place it inside the `assets/` folder at the root of your project.
+> Add your screenshot as `assets/Screenshot 2025-10-20 101827.png`. You can take it from your browser after generating a response and place it inside the `assets/` folder at the root of your project.
 
 ---
 
