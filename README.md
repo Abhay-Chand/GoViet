@@ -103,11 +103,11 @@ GoViet uses both because:
 
 📝 **Example Output**:
 
-
 📸 **Screenshot of Example Output**:  
-![Example Output](assets/Screenshot 2025-10-20 101827.png)
+![Example Query Screenshot](assets/Screenshot%202025-10-20%20101827.png)
 
-> Add your screenshot as `assets/Screenshot 2025-10-20 101827.png`. You can take it from your browser after generating a response and place it inside the `assets/` folder at the root of your project.
+---
+
 
 ---
 
@@ -121,18 +121,18 @@ GoViet uses both because:
 
 GoViet/
 │
-├── hybrid_chat.py # Flask app (main entry)
-├── load_to_neo4j.py # Load dataset into Neo4j
-├── pinecone_upload.py # Upload embeddings to Pinecone
-├── visualize_graph.py # Graph visualization script
-├── config.py # Configuration (no secrets pushed!)
-├── vietnam_travel_dataset.json
-├── templates/
-│ ├── index.html # Main page
-│ └── neo4j_viz.html # Graph visualization page
-├── static/ # CSS/JS (Tailwind)
-├── requirements.txt
-└── README.md
+├── hybrid_chat.py # Flask app (main entry) \n
+├── load_to_neo4j.py # Load dataset into Neo4j \n
+├── pinecone_upload.py # Upload embeddings to Pinecone \n
+├── visualize_graph.py # Graph visualization script \n
+├── config.py # Configuration (no secrets pushed!) \n
+├── vietnam_travel_dataset.json  \n
+├── templates/ \n
+│ ├── index.html # Main page  \n
+│ └── neo4j_viz.html # Graph visualization page  \n
+├── static/ # CSS/JS (Tailwind)  \n
+├── requirements.txt  \n
+└── README.md  \n
 
 
 
