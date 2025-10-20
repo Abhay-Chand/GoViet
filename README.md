@@ -121,18 +121,18 @@ GoViet uses both because:
 
 GoViet/
 │
-├── hybrid_chat.py # Flask app (main entry).
-├── load_to_neo4j.py # Load dataset into Neo4j.
-├── pinecone_upload.py # Upload embeddings to Pinecone.
-├── visualize_graph.py # Graph visualization script.
-├── config.py # Configuration (no secrets pushed!).
-├── vietnam_travel_dataset.json.
-├── templates/.
-│ ├── index.html # Main page .
-│ └── neo4j_viz.html # Graph visualization page .
-├── static/ # CSS/JS (Tailwind).
-├── requirements.txt .
-└── README.md .
+├── hybrid_chat.py # Flask app (main entry). <br />
+├── load_to_neo4j.py # Load dataset into Neo4j. <br />
+├── pinecone_upload.py # Upload embeddings to Pinecone. <br />
+├── visualize_graph.py # Graph visualization script. <br />
+├── config.py # Configuration (no secrets pushed!). <br />
+├── vietnam_travel_dataset.json. <br />
+├── templates/. <br />
+│ ├── index.html # Main page . <br />
+│ └── neo4j_viz.html # Graph visualization page . <br />
+├── static/ # CSS/JS (Tailwind). <br />
+├── requirements.txt . <br />
+└── README.md . <br />
 
 
 
