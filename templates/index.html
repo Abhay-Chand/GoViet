@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hybrid Vietnam Travel Assistant</title>
+  <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body class="bg-gradient-to-br from-blue-100 via-white to-green-100 min-h-screen flex flex-col">
+  <header class="py-6 text-center">
+    <h1 class="text-4xl font-bold text-gray-800">🌏 Hybrid Vietnam Travel Assistant</h1>
+    <p class="text-gray-600 mt-2">Powered by Neo4j + Pinecone + OpenAI</p>
+  </header>
+
+  <main class="w-full max-w-3xl mx-auto px-4">
+    <div class="bg-white rounded-2xl shadow-lg p-6 mb-4">
+      <div class="flex space-x-3">
+        <input id="user-input"
+               type="text"
+               placeholder="Ask something like: 'Create a romantic 4-day itinerary for Vietnam'"
+               class="flex-1 p-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400">
+        <button id="send-btn"
+                class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-xl transition">
+          Ask
+        </button>
+      </div>
+    </div>
+
+    <div id="chat-box" class="space-y-4 max-h-[60vh] overflow-y-auto p-4 bg-white rounded-2xl shadow-lg"></div>
+
+    <div class="mt-4 text-center">
+      <a href="/visualize" class="text-blue-600 hover:text-blue-800 underline font-medium">
+        🧭 View Knowledge Graph Visualization
+      </a>
+    </div>
+  </main>
+
+  <footer class="mt-auto py-4 text-gray-500 text-sm text-center">
+    Built with ❤️ using Flask, Neo4j, Pinecone, and OpenAI
+  </footer>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
